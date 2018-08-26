@@ -69,3 +69,63 @@ success_msg("Some praise! Then reinforce a learning objective from the exercise.
 ```
 
 
+---
+
+## Insert exercise title here
+
+```yaml
+type: NormalExercise 
+xp: 100 
+key: 15633c367d   
+```
+
+
+
+
+
+`@instructions`
+
+
+`@hint`
+
+
+`@pre_exercise_code`
+
+```{python}
+
+```
+
+
+`@sample_code`
+
+```{python}
+# import numpy & matplotlib as their usual aliaces
+
+# build & plot
+x = np.arange(0, 5, 0.1);
+y = np.sin(x)
+plt.plot(x, y)
+plt.show()
+```
+
+
+`@solution`
+
+```{python}
+import numpy as np
+import matplotlib.pyplot as plt
+
+x = np.arange(0, 5, 0.1);
+y = np.sin(x)
+plt.plot(x, y)
+plt.show()
+```
+
+
+`@sct`
+
+```{python}
+
+```
+
+
